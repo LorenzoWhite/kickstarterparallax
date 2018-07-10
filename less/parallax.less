@@ -10,9 +10,8 @@
   perspective: 2px;
 }
 
-.paralax-section {
+.parallax-section {
   /* Needed for children to be absolutely positioned relative to the parent. */
-  background: red;
   position: relative;
   /* The height of the container. Must be set, but it doesn't really matter what the value is. */
   height: 100vh;
@@ -23,6 +22,11 @@
   justify-content: center;
   color: white;
   text-shadow: 0 0 5px #000;
+
+  //bug fixes
+  position:absolute;
+  top:-220px;
+  left:-75px;
 }
 
 .parallax::after {
@@ -46,14 +50,25 @@
 
 /* The styling for the static div. */
 .static {
+  //included for testing
   background: red;
 }
 
-/* Sets the actual background images to adorable kitties. This part is crucial. */
+/* Sets the actual background images. This part is crucial. */
 .bg1::after {
   background-image: url('../img/wallor-guy.jpg');
+  z-index: 1;
 }
 
 .bg2::after {
-  background-image: url('https://placekitten.com/g/800/600');
+  background-image: url('../img/Wallet-shot1.png');
+  z-index: 1;
+  height: 550px;
+  width: 550px;
+  background-repeat: no-repeat;
+  transform: translateZ(.34px) scale(1.5);
+  position: relative;
+  left: -210px;
+  top: -350px;
+  background-size: 100%;
 }
