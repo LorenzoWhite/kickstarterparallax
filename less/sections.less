@@ -161,6 +161,10 @@
 		}
 	}
 
+	&-rfid {
+		
+	}
+
 	&-tracking {
 		height: 80vh;
 		.wide-title {
@@ -318,18 +322,27 @@
 		h1 {
 			font-weight: 150;
 			font-size: 48px;
+			margin-bottom: 0;
+		}
+
+		i {
+			margin-right: 35px;
 		}
 
 		.half {
 			display: inline-block;
+			margin: 55px;
+			margin-top: 0;
 
 			.leather-words {
-				display: inline-block; 
+				display: inline-block;
 			}
 
 			p.subtitle {
 				color: @alert-info-color;
 				font-size: 30px;
+				text-align: left;
+				margin: 0;
 			}
 
 			.icon-leather-svgrepo-com, .icon-meter-svgrepo-com {
@@ -436,11 +449,9 @@
 
 		.inner-content {
 
-
 			p {
 				font-size: 48px;
 				font-family: @content-font;
-
 			}
 		}
 
@@ -471,7 +482,7 @@
 }
 
 .gps-title {
-	//color: @gps-text-color;
+	color: @gps-text-color;
 	font-family: @content-font;
 	font-size: 100px;
 	margin-bottom: 0;

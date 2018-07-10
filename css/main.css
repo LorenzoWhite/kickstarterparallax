@@ -524,9 +524,15 @@ textarea {
 .section-leather h1 {
   font-weight: 150;
   font-size: 48px;
+  margin-bottom: 0;
+}
+.section-leather i {
+  margin-right: 35px;
 }
 .section-leather .half {
   display: inline-block;
+  margin: 55px;
+  margin-top: 0;
 }
 .section-leather .half .leather-words {
   display: inline-block;
@@ -534,6 +540,8 @@ textarea {
 .section-leather .half p.subtitle {
   color: #78909c;
   font-size: 30px;
+  text-align: left;
+  margin: 0;
 }
 .section-leather .half .icon-leather-svgrepo-com,
 .section-leather .half .icon-meter-svgrepo-com {
@@ -642,6 +650,7 @@ textarea {
   padding-top: 50px;
 }
 .gps-title {
+  color: #1de9b6;
   font-family: "Roboto";
   font-size: 100px;
   margin-bottom: 0;
