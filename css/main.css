@@ -300,6 +300,9 @@ textarea {
   margin-top: 30px;
   margin-bottom: 45px;
 }
+.section-gps {
+  margin-bottom: 250px;
+}
 .section-gps .inner-content {
   max-width: 100%;
 }
@@ -430,8 +433,115 @@ textarea {
   text-align: right;
   margin-top: 200px;
 }
+.section-alerts {
+  background-image: url('../img/bg-blurr-ar.jpg');
+  background-position: bottom;
+}
+.section-alerts .inner-content {
+  max-width: 100%;
+}
+.section-alerts .inner-content .alert-half {
+  width: 50%;
+}
+.section-alerts .inner-content .alert-half.left-alert .alert-titles {
+  margin-left: 50px;
+}
+.section-alerts .inner-content .alert-half.left-alert .alert-titles p {
+  font-size: 30px;
+  font-weight: 100;
+  margin: 0;
+  margin-left: 30px;
+  color: #78909c;
+}
+.section-alerts .inner-content .alert-half.left-alert .alert-titles .title-line1 {
+  position: relative;
+  top: -50px;
+}
+.section-alerts .inner-content .alert-half.left-alert .alert-titles .title-line2 {
+  position: relative;
+  top: -85px;
+}
+.section-alerts .inner-content .alert-half.left-alert .alert-titles .alert-title1 {
+  color: #1de9b6;
+  font-size: 90px;
+  font-weight: 700;
+  font-family: "Roboto";
+  margin-bottom: 0;
+  margin-left: 45px;
+  margin-right: 45px;
+}
+.section-alerts .inner-content .alert-half.left-alert .alert-titles .alert-title2 {
+  display: inline-block;
+  margin: 0;
+  color: #78909C;
+  font-family: "Roboto";
+  font-size: 68px;
+  font-weight: 650;
+  margin-left: 45px;
+  margin-right: 45px;
+  width: 424.5px;
+}
+.section-alerts .inner-content .alert-half.left-alert .alert-titles .alert-title3 {
+  display: inline-block;
+  margin: 0;
+  color: #101B2A;
+  font-family: "Roboto";
+  font-size: 55px;
+  font-weight: 250;
+  margin-left: 45px;
+  margin-right: 45px;
+  width: 424.5px;
+}
+.section-alerts .inner-content .alert-half.left-alert .alert-font-descriptor {
+  display: inline-block;
+  position: relative;
+  top: -50px;
+  margin-bottom: 70px;
+}
+.section-alerts .inner-content .alert-half.left-alert .alert-font-descriptor p {
+  display: inline-block;
+  margin: 0;
+  position: relative;
+}
+.section-alerts .inner-content .alert-half.left-alert .alert-description-box {
+  font-size: 48px;
+  font-family: "Roboto";
+  width: 125px;
+  height: 500px;
+  text-align: right;
+}
+.section-alerts .inner-content .alert-half.left-alert .alert-description-box p {
+  font-size: 55px;
+  margin-top: 300px;
+  font-family: "Roboto";
+  color: #37474f;
+}
+.section-leather {
+  text-align: center;
+  font-family: "Roboto";
+  font-weight: 100;
+}
+.section-leather h1 {
+  font-weight: 150;
+  font-size: 48px;
+}
+.section-leather .half {
+  display: inline-block;
+}
+.section-leather .half .leather-words {
+  display: inline-block;
+}
+.section-leather .half p.subtitle {
+  color: #78909c;
+  font-size: 30px;
+}
+.section-leather .half .icon-leather-svgrepo-com,
+.section-leather .half .icon-meter-svgrepo-com {
+  font-size: 120px;
+}
 .section-planner {
   height: 80vh;
+  margin-bottom: 255px;
 }
 .section-planner .wide-title {
   background: #1DE9B6;
@@ -528,11 +638,10 @@ textarea {
 .gps-content {
   background-color: #051029;
   text-align: right;
-  padding-right: 600px;
+  padding-right: 480px;
   padding-top: 50px;
 }
 .gps-title {
-  color: #1de9b6;
   font-family: "Roboto";
   font-size: 100px;
   margin-bottom: 0;
@@ -541,9 +650,11 @@ textarea {
 .gps-subtitle {
   color: white;
   font-family: "Roboto";
-  font-size: 80px;
+  font-size: 75px;
   font-weight: 350;
   margin-top: 0;
+  position: relative;
+  top: -15px;
 }
 .parallax-wrapper {
   /* The height needs to be set to a fixed value for the effect to work.
@@ -595,6 +706,7 @@ textarea {
 /* Sets the actual background images. This part is crucial. */
 .bg1::after {
   background-image: url('../img/wallor-guy.jpg');
+  background-repeat: no-repeat;
   z-index: 1;
 }
 .bg2::after {
@@ -610,11 +722,11 @@ textarea {
   background-size: 100%;
 }
 .bg3::after {
-  background-image: url('../img/iphone-bg.png');
+  background-image: url('../img/phone-demo-small.png');
   z-index: 1;
   height: 100%;
   width: 300px;
-  transform: translateZ(0.215px) scale(2.35);
+  transform: translateZ(0.215px) scale(2.345);
   position: relative;
   top: 900px;
   left: 950px;
@@ -623,11 +735,11 @@ textarea {
 .bg4::after {
   background-image: url('../img/Phone-side1.png');
   z-index: 1;
-  height: 500px;
-  width: 500px;
+  height: 350px;
+  width: 555px;
   transform: translateZ(0.215px) scale(2.35);
   position: relative;
-  top: 108px;
-  left: 475px;
+  left: 535px;
+  top: -170px;
   background-repeat: no-repeat;
 }

@@ -39,6 +39,8 @@
 
 	//custom class added for gps styling
 	&-gps {
+		margin-bottom: 250px;
+
 		.inner-content {
 			max-width: 100%;
 		}
@@ -194,8 +196,154 @@
 		}
 	}
 
+	&-alerts {
+		background-image: url('../img/bg-blurr-ar.jpg');
+		background-position: bottom;
+
+		.inner-content {
+			max-width: 100%;
+
+			.alert-half {
+				width: 50%;
+
+				&.left-alert {
+
+
+
+					.alert-titles {
+						margin-left: 50px;
+
+						// display: inline-block;
+						p {
+							font-size: 30px;
+							font-weight: 100;
+							margin: 0;
+							margin-left: 30px;
+							color: @alert-info-color;
+						}
+
+						.title-line1 {
+							position: relative;
+							top: -50px;
+						}
+
+						.title-line2 {
+							position: relative;
+							top: -85px;
+						}
+
+						.alert-title1 {
+							color: @gps-text-color;
+							font-size: 90px;
+							font-weight: 700;
+							font-family: @content-font;
+							margin-bottom: 0;
+							margin-left: 45px;
+							margin-right: 45px;
+						}
+
+						.alert-title2 {
+							display: inline-block;
+							margin: 0;
+							color: #78909C;
+							font-family: @content-font;
+							font-size: 68px;
+							font-weight: 650;
+							margin-left: 45px;
+							margin-right: 45px;
+							width: 424.5px;
+						}
+
+						.alert-title3 {
+							display: inline-block;
+							margin: 0;
+							color: #101B2A;
+							font-family: @content-font;
+							font-size: 55px;
+							font-weight: 250;
+							margin-left: 45px;
+							margin-right: 45px;
+							width: 424.5px;
+						}
+					}
+
+					.alert-font-descriptor {
+						display: inline-block;
+						position: relative;
+						top: -50px;
+						margin-bottom: 70px;
+						// top: -500px;
+
+						p {
+							display: inline-block;
+							margin: 0;
+							// font-size: 40px;
+							position: relative;
+						}
+					}
+
+
+					.alert-description-box {
+						font-size: 48px;
+						font-family: @content-font;
+						width: 125px;
+						height: 500px;
+						text-align: right;
+
+
+						p {
+							font-size: 55px;
+							margin-top: 300px;
+							font-family: @content-font;
+							color: @alert-description-color;
+							}
+							// position: relative;
+							// right: 50px;
+						}
+
+					}
+				}
+
+			  &.right-alert {
+
+				}
+			}
+	}
+
+	&-leather {
+		text-align: center;
+		font-family: @content-font;
+		font-weight: 100;
+
+		h1 {
+			font-weight: 150;
+			font-size: 48px;
+		}
+
+		.half {
+			display: inline-block;
+
+			.leather-words {
+				display: inline-block; 
+			}
+
+			p.subtitle {
+				color: @alert-info-color;
+				font-size: 30px;
+			}
+
+			.icon-leather-svgrepo-com, .icon-meter-svgrepo-com {
+				font-size: 120px;
+			}
+
+
+		}
+
+	}
+
 	&-planner {
 		height: 80vh;
+		margin-bottom: 255px;
 
 		.wide-title {
 			background: #1DE9B6;
@@ -284,7 +432,6 @@
 		}
 
 	}
-
 }
 
 		.inner-content {
@@ -319,22 +466,24 @@
 .gps-content {
 	background-color: hsl(221, 80%, 9%);
 	text-align: right;
-	padding-right: 600px;
+	padding-right: 480px;
 	padding-top: 50px;
 }
 
 .gps-title {
-	color: @gps-text-color;
+	//color: @gps-text-color;
 	font-family: @content-font;
 	font-size: 100px;
 	margin-bottom: 0;
-	margin-top: 20px
+	margin-top: 20px;
 }
 
 .gps-subtitle {
 	color: white;
 	font-family: @content-font;
-	font-size: 80px;
+	font-size: 75px;
 	font-weight: 350;
 	margin-top: 0;
+	position: relative;
+	top: -15px;
 }
