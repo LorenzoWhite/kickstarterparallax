@@ -297,6 +297,16 @@ textarea {
 }
 .section-kickstarter {
   text-align: center;
+  margin-top: 30px;
+  margin-bottom: 45px;
+}
+.section-gps .inner-content {
+  max-width: 100%;
+}
+.section-gps p {
+  font-family: "Roboto";
+  color: white;
+  padding-bottom: 90px;
 }
 .section-ar {
   border-top: 1em solid #ffdf32;
@@ -427,9 +437,6 @@ textarea {
   background: #1DE9B6;
   height: 220px;
 }
-.section-planner .wide-title .right {
-  text-align: left;
-}
 .section-planner .wide-title h1 {
   font-size: 72px;
   font-family: "Roboto";
@@ -504,6 +511,40 @@ textarea {
   font-size: 48px;
   font-family: "Roboto";
 }
+.left {
+  position: relative;
+  left: -250px;
+}
+.right {
+  position: relative;
+  right: -100px;
+}
+.text-box {
+  width: 700px;
+  height: auto;
+  position: relative;
+  top: 90px;
+}
+.gps-content {
+  background-color: #051029;
+  text-align: right;
+  padding-right: 600px;
+  padding-top: 50px;
+}
+.gps-title {
+  color: #1de9b6;
+  font-family: "Roboto";
+  font-size: 100px;
+  margin-bottom: 0;
+  margin-top: 20px;
+}
+.gps-subtitle {
+  color: white;
+  font-family: "Roboto";
+  font-size: 80px;
+  font-weight: 350;
+  margin-top: 0;
+}
 .parallax-wrapper {
   /* The height needs to be set to a fixed value for the effect to work.
    * 100vh is the full height of the viewport. */
@@ -560,12 +601,12 @@ textarea {
   background-image: url('../img/Wallet-shot1.png');
   z-index: 1;
   height: 540px;
-  width: 540px;
+  width: 600px;
   background-repeat: no-repeat;
-  transform: translateZ(0.285px) scale(1.5);
+  transform: translateZ(0.285px) scale(1.43);
   position: relative;
   left: -30px;
-  top: -280px;
+  top: -300px;
   background-size: 100%;
 }
 .bg3::after {
@@ -575,7 +616,18 @@ textarea {
   width: 300px;
   transform: translateZ(0.215px) scale(2.35);
   position: relative;
-  top: 795px;
+  top: 900px;
   left: 950px;
+  background-repeat: no-repeat;
+}
+.bg4::after {
+  background-image: url('../img/Phone-side1.png');
+  z-index: 1;
+  height: 500px;
+  width: 500px;
+  transform: translateZ(0.215px) scale(2.35);
+  position: relative;
+  top: 108px;
+  left: 475px;
   background-repeat: no-repeat;
 }

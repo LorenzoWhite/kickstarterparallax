@@ -32,6 +32,22 @@
 
 	&-kickstarter {
 		text-align: center;
+		margin-top: 30px;
+		margin-bottom: 45px;
+
+	}
+
+	//custom class added for gps styling
+	&-gps {
+		.inner-content {
+			max-width: 100%;
+		}
+
+		p {
+			font-family: @content-font;
+			color: white;
+			padding-bottom: 90px;
+		}
 	}
 
 	&-ar {
@@ -185,10 +201,6 @@
 			background: #1DE9B6;
 			height: 220px;
 
-		.right {
-			text-align: left;
-		}
-
 			h1 {
 				font-size: 72px;
 				font-family: @content-font;
@@ -284,3 +296,45 @@
 
 			}
 		}
+
+
+//my custom styles
+.left {
+	position: relative;
+	left: -250px;
+}
+
+.right {
+	position: relative;
+	right: -100px;
+}
+
+.text-box {
+	width: 700px;
+	height: auto;
+	position: relative;
+	top: 90px;
+}
+
+.gps-content {
+	background-color: hsl(221, 80%, 9%);
+	text-align: right;
+	padding-right: 600px;
+	padding-top: 50px;
+}
+
+.gps-title {
+	color: @gps-text-color;
+	font-family: @content-font;
+	font-size: 100px;
+	margin-bottom: 0;
+	margin-top: 20px
+}
+
+.gps-subtitle {
+	color: white;
+	font-family: @content-font;
+	font-size: 80px;
+	font-weight: 350;
+	margin-top: 0;
+}
