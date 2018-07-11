@@ -506,87 +506,66 @@ textarea {
   margin-top: 3em;
 }
 .section-alerts {
+  height: auto;
   background-image: url('../img/bg-blurr-ar.jpg');
   background-position: bottom;
 }
 .section-alerts .inner-content {
-  max-width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: 100%;
 }
-.section-alerts .inner-content .alert-half {
-  width: 50%;
-}
-.section-alerts .inner-content .alert-half.left-alert .alert-titles {
-  margin-left: 50px;
-}
-.section-alerts .inner-content .alert-half.left-alert .alert-titles p {
-  font-size: 30px;
-  font-weight: 100;
-  margin: 0;
-  margin-left: 30px;
-  color: #78909c;
-}
-.section-alerts .inner-content .alert-half.left-alert .alert-titles .title-line1 {
-  position: relative;
-  top: -50px;
-}
-.section-alerts .inner-content .alert-half.left-alert .alert-titles .title-line2 {
-  position: relative;
-  top: -85px;
-}
-.section-alerts .inner-content .alert-half.left-alert .alert-titles .alert-title1 {
+.section-alerts .inner-content h1 {
   color: #1de9b6;
-  font-size: 90px;
+  font-size: 5.4rem;
   font-weight: 700;
   font-family: "Roboto";
-  margin-bottom: 0;
-  margin-left: 45px;
-  margin-right: 45px;
-}
-.section-alerts .inner-content .alert-half.left-alert .alert-titles .alert-title2 {
-  display: inline-block;
   margin: 0;
+}
+.section-alerts .inner-content h2 {
+  margin: 0;
+  position: relative;
+  top: -0.4em;
   color: #78909C;
   font-family: "Roboto";
-  font-size: 68px;
+  font-size: 3.8rem;
   font-weight: 650;
-  margin-left: 45px;
-  margin-right: 45px;
-  width: 424.5px;
 }
-.section-alerts .inner-content .alert-half.left-alert .alert-titles .alert-title3 {
-  display: inline-block;
-  margin: 0;
+.section-alerts .inner-content h3 {
+  position: relative;
+  top: -1.2em;
   color: #101B2A;
   font-family: "Roboto";
-  font-size: 55px;
+  font-size: 2.85rem;
   font-weight: 250;
-  margin-left: 45px;
-  margin-right: 45px;
-  width: 424.5px;
 }
-.section-alerts .inner-content .alert-half.left-alert .alert-font-descriptor {
-  display: inline-block;
-  position: relative;
-  top: -50px;
-  margin-bottom: 70px;
+.section-alerts .inner-content .half {
+  width: 100%;
 }
-.section-alerts .inner-content .alert-half.left-alert .alert-font-descriptor p {
-  display: inline-block;
+.section-alerts .inner-content .half .titles {
+  margin: auto;
+  text-align: left;
+  padding-left: 15em;
+  padding-top: 8em;
+}
+.section-alerts .inner-content .half .titles h1,
+.section-alerts .inner-content .half .titles h2,
+.section-alerts .inner-content .half .titles h3 {
   margin: 0;
-  position: relative;
+  padding: 0;
 }
-.section-alerts .inner-content .alert-half.left-alert .alert-description-box {
-  font-size: 48px;
-  font-family: "Roboto";
-  width: 125px;
-  height: 500px;
+.section-alerts .inner-content .half .alert-description-box {
+  margin-top: 2em;
+  width: 39%;
+  float: right;
+  font-size: 3.8rem;
   text-align: right;
-}
-.section-alerts .inner-content .alert-half.left-alert .alert-description-box p {
-  font-size: 55px;
-  margin-top: 300px;
-  font-family: "Roboto";
   color: #37474f;
+}
+.section-alerts .inner-content .half img {
+  width: 100%;
+  margin: 0 auto;
+  transform: scale(1.3);
 }
 .section-leather {
   text-align: center;
