@@ -17,16 +17,14 @@
   height: 100vh;
 
   /* For text formatting. */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  text-shadow: 0 0 5px #000;
+  // display: flex;
+  // align-items: center;
+  // justify-content: center;
+  // color: white;
+  // text-shadow: 0 0 5px #000;
 
   //bug fixes
-  position:absolute;
-  top:-220px;
-  left:-75px;
+  //position:absolute;
 }
 
 .parallax::after {
@@ -66,37 +64,32 @@
 .bg2::after {
   background-image: url(../img/Wallet-shot1.png);
   z-index: 1;
-  height: 35em;
-  width: 35em;
+  width: 20rem;
   background-repeat: no-repeat;
-  transform: translateZ(0.3px) scale(1.3);
-  position: absolute;
-  left: 220px;
-  top: -70px;
-  background-size: 100%;
+  // transform: translateZ(1px) scale(0.3);
+  // top: -70px;
+  // background-size: 100%;
 }
 
 .bg3::after {
-  background-image: url('../img/phone-demo-small.png');
+  background-image: url(../img/phone-demo-small.png);
   z-index: 1;
-  height: 100%;
-  width: 18em;
-  transform: translateZ(.215px) scale(2.345);
-  position: relative;
-  top: 900px;
-  left: 66em;
+  width: 14em;
   background-repeat: no-repeat;
+  left: 50em;
+  top: 35em;
+  transform: translateZ(.5px) scale(2.1);
 }
 
 .bg4::after {
   background-image: url('../img/Phone-side1.png');
   z-index: 1;
-  height: 350px;
-  width: 555px;
+  height: 100%;
+  width: 27em;
   transform: translateZ(.215px) scale(2.35);
   position: relative;
-  left: 535px;
-  top: -170px;
+  left: 7em;
+  top: 52em;
 
   background-repeat: no-repeat;
 }
