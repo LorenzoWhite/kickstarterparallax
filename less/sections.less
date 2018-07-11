@@ -1,11 +1,14 @@
+.main-wrapper {
+	max-width: 100%;
+}
+
 .section {
 	&-hero {
 		background: @cyan;
-		height: 77em;
-		overflow: hidden;
+		height: 60vw;
 
 		.logo {
-			position: relative;
+			position: absolute;
 			left: 60rem;
 			top: 2rem;
 			fill: @white;
@@ -28,6 +31,16 @@
 		    z-index: 200;
 		    position: absolute;
 		}
+
+		img.main-banner {
+			width: 70em;
+			height: 70em;
+			// height: inherit;
+			float: left;
+			position: absolute;
+		}
+
+
 	}
 
 	&-kickstarter {
@@ -39,19 +52,49 @@
 		margin-bottom: 250px;
 
 		.inner-content {
-			max-width: 100%;
+
+			img {
+				position: absolute;
+				width: 62em;
+				top: -50em;
+			}
+
+			p {
+				color: #F5F5F5;
+				font-size: 2.2rem;
+			}
 		}
 
-		p {
+		.gps-content {
+			background-color: hsl(221, 80%, 9%);
+			text-align: right;
+			padding-right: 20em;
+			padding-top: 1em;
+			padding-bottom: 2em;
+		}
+
+		.gps-title {
+			color: @gps-text-color;
 			font-family: @content-font;
+			font-size: 5.5rem;
+			margin: 0;
+		}
+
+		.gps-subtitle {
 			color: white;
-			padding-bottom: 90px;
+			font-family: @content-font;
+			font-size: 75px;
+			font-weight: 350;
+			margin-top: 0;
+			position: relative;
+			top: -15px;
 		}
 	}
 
 	&-ar {
 		border-top: 1em solid rgba(255,223,50,1);
 		position: relative;
+		top: -40px;
 		height: auto;
 		z-index: 2;
 
@@ -232,8 +275,7 @@
 		.inner-content {
 			img {
 				position: absolute;
-				top: -300px;
-				left: -300px;
+				width: 49em;
 			}
 
 			p {
@@ -407,7 +449,8 @@
 	}
 
 	&-planner {
-			height: 80vh;
+			height: 80vw;
+			// margin-bottom: 10px;
 			.wide-title {
 				background: @gps-text-color;
 				height: 13em;
@@ -427,8 +470,9 @@
 			.inner-content {
 				img {
 					position: absolute;
-					top: -300px;
-					left: -300px;
+			    top: -43em;
+			    left: 61em;
+			    width: 34em;
 				}
 
 				p {
@@ -529,9 +573,6 @@
 		h1 {
 			font-size: 30rem;
 		}
-		img {
-			width: 100%
-		}
 	}
 
 
@@ -574,28 +615,3 @@
 // 	}
 //
 // }
-
-.gps-content {
-	background-color: hsl(221, 80%, 9%);
-	text-align: right;
-	padding-right: 20em;
-	padding-top: 3em;
-}
-
-.gps-title {
-	color: @gps-text-color;
-	font-family: @content-font;
-	font-size: 100px;
-	margin-bottom: 0;
-	margin-top: 20px;
-}
-
-.gps-subtitle {
-	color: white;
-	font-family: @content-font;
-	font-size: 75px;
-	font-weight: 350;
-	margin-top: 0;
-	position: relative;
-	top: -15px;
-}

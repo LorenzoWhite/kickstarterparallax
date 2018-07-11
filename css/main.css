@@ -12,8 +12,11 @@ html {
   line-height: 1.4;
   font-family: "Roboto";
   font-size: 1vw;
+  width: 100%;
+  overflow-x: hidden;
 }
-/*
+/*HKEY_CURRENT_USER\Software\Microsoft\ Windows\CurrentVersion\Policies\Explorer
+
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
  *
@@ -265,17 +268,19 @@ textarea {
   width: 100%;
 }
 .inner-content {
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
   position: relative;
 }
+.main-wrapper {
+  max-width: 100%;
+}
 .section-hero {
   background: #26c6da;
-  height: 77em;
-  overflow: hidden;
+  height: 60vw;
 }
 .section-hero .logo {
-  position: relative;
+  position: absolute;
   left: 60rem;
   top: 2rem;
   fill: #ffffff;
@@ -295,6 +300,12 @@ textarea {
   z-index: 200;
   position: absolute;
 }
+.section-hero img.main-banner {
+  width: 70em;
+  height: 70em;
+  float: left;
+  position: absolute;
+}
 .section-kickstarter {
   text-align: center;
   margin: 15em;
@@ -302,17 +313,41 @@ textarea {
 .section-gps {
   margin-bottom: 250px;
 }
-.section-gps .inner-content {
-  max-width: 100%;
+.section-gps .inner-content img {
+  position: absolute;
+  width: 62em;
+  top: -50em;
 }
-.section-gps p {
+.section-gps .inner-content p {
+  color: #F5F5F5;
+  font-size: 2.2rem;
+}
+.section-gps .gps-content {
+  background-color: #051029;
+  text-align: right;
+  padding-right: 20em;
+  padding-top: 1em;
+  padding-bottom: 2em;
+}
+.section-gps .gps-title {
+  color: #1de9b6;
   font-family: "Roboto";
+  font-size: 5.5rem;
+  margin: 0;
+}
+.section-gps .gps-subtitle {
   color: white;
-  padding-bottom: 90px;
+  font-family: "Roboto";
+  font-size: 75px;
+  font-weight: 350;
+  margin-top: 0;
+  position: relative;
+  top: -15px;
 }
 .section-ar {
   border-top: 1em solid #ffdf32;
   position: relative;
+  top: -40px;
   height: auto;
   z-index: 2;
 }
@@ -460,8 +495,7 @@ textarea {
 }
 .section-tracking .inner-content img {
   position: absolute;
-  top: -300px;
-  left: -300px;
+  width: 49em;
 }
 .section-tracking .inner-content p {
   font-size: 3rem;
@@ -590,7 +624,7 @@ textarea {
   font-size: 120px;
 }
 .section-planner {
-  height: 80vh;
+  height: 80vw;
 }
 .section-planner .wide-title {
   background: #1de9b6;
@@ -607,8 +641,9 @@ textarea {
 }
 .section-planner .inner-content img {
   position: absolute;
-  top: -300px;
-  left: -300px;
+  top: -43em;
+  left: 61em;
+  width: 34em;
 }
 .section-planner .inner-content p {
   font-size: 3.25rem;
@@ -690,9 +725,6 @@ textarea {
 -powerbank h1 {
   font-size: 30rem;
 }
--powerbank img {
-  width: 100%;
-}
 .left {
   position: relative;
   left: -250px;
@@ -704,26 +736,4 @@ textarea {
 .left {
   position: relative;
   left: 2em;
-}
-.gps-content {
-  background-color: #051029;
-  text-align: right;
-  padding-right: 20em;
-  padding-top: 3em;
-}
-.gps-title {
-  color: #1de9b6;
-  font-family: "Roboto";
-  font-size: 100px;
-  margin-bottom: 0;
-  margin-top: 20px;
-}
-.gps-subtitle {
-  color: white;
-  font-family: "Roboto";
-  font-size: 75px;
-  font-weight: 350;
-  margin-top: 0;
-  position: relative;
-  top: -15px;
 }

@@ -19,10 +19,9 @@
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   <![endif]-->
 
-<div class="main-wrapper parallax-wrapper">
-<section class="section-hero paralax-section parallax bg1">
-  <img src="img/logo.png" alt="Wallor logo" class="logo">
-  
+<div class="main-wrapper">
+<section class="section-hero"><img src="img/logo.png" alt="Wallor logo" class="logo"><img src="img/wallor-guy.jpg" alt="Wallor Guy" class="main-banner rellax" data-rellax-speed="5">
+
   <h1>The<br>
     Smartest<br>
     Global<br>
@@ -52,7 +51,7 @@
           Tracking </h1>
       </div>
     </div>
-    <div class="inner-content parallax-section parallax bg2">
+    <div class="inner-content"><img src="img/Wallet-shot1.png" alt="wallet" class="wallet rellax" data-rellax-speed="2.2">
       <div>
         <p class="right">Attach and connect our tracking chips to our system. Track anything you want,<br>
         <em><strong>keys, cards, passport, bag pack</strong></em></p>
@@ -69,7 +68,7 @@
           Planner </h1>
       </div>
     </div>
-    <div class="inner-content  parallax-section parallax bg3">
+    <div class="inner-content"><img src="img/phone-demo-small.png" alt="phone-demo-small" class="phone-demo rellax">
       <div class="text-box">
         <p class="left">Plan your day ahead, make sure you don't leave anything behind</p>
       </div>
@@ -81,7 +80,8 @@
   <!-- /.section-planner -->
 
   <section class="section-gps">
-    <div class="inner-content"> <div class="parallax-section parallax bg4"></div>
+    <div class="inner-content">
+      <img src="img/Phone-side1.png" alt="phone-side-1" class="rellax gps-phone-side" data-rellax-speed="-2.8">
       <div class="gps-content">
         <h1 class="gps-title"><strong>GLOBAL</strong><br></h1>
         <h2 class="gps-subtitle">GPS</h2>
@@ -102,7 +102,6 @@
           <p>96PT<span class="alert-title1">DISTANCE</span>BLACK</p><br>
           <p class="title-line1">72PT<span class="alert-title2">OR BATTERY</span>BLACK</p><br>
           <p class="title-line2">48PT<span class="alert-title3">ALERTS</span>REGULAR</p>
-          </p>
         </div>
         <div class="alert-description-box">
           Left behind, battery alerts, <strong><em>don't forget your passport</em></strong>
@@ -110,12 +109,11 @@
       </div>
       <!--Div to hold image -->
       <div class="alert-half paralax-section parallax bg5"></div>
-  </div>
-
-</section>
+    </div>
+  </section>
   <!--- /.section-alerts -->
 
-  <section class="section-kickstarter"> <img src="img/kickstarter.jpg" alt="kickstarter"> </section>
+  <!-- <section class="section-kickstarter"> <img src="img/kickstarter.jpg" alt="kickstarter"> </section> -->
 
   <!-- /.section-kickstarter -->
 
@@ -221,7 +219,10 @@
 <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
 <script src="js/plugins.js"></script>
 <script src="js/main.js"></script>
-<script src="js/vendor/rellax.min.js"
+<script src="js/vendor/rellax.min.js"></script>
+<script>
+  var rallaxTracking = new Rellax('.rellax')
+</script>
 
 <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
 <script>
