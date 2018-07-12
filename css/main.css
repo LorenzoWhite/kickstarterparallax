@@ -311,19 +311,47 @@ textarea {
 }
 .section-kickstarter {
   text-align: center;
-  margin-top: 15em;
-  margin-bottom: 15em;
+  margin-bottom: 6.5em;
 }
-.section-kickstarter img {
-  width: 100%;
+.section-kickstarter h3 {
+  color: #78909c;
+  font-size: 3rem;
+}
+.section-kickstarter label {
+  font-size: 2rem;
+  text-align: left;
+}
+.section-kickstarter .Input-text {
+  display: block;
+  margin: auto;
+  padding: 0.5em 1em;
+  color: inherit;
+  width: 35%;
+  font-family: inherit;
+  font-size: 1.5rem;
+  font-weight: inherit;
+  border: none;
+  box-shadow: 0.5px 2px 3px #888888;
+}
+.section-kickstarter .submit {
+  background-color: #FF3D00;
+  font-size: 1rem;
+  font-weight: 100;
+  margin-top: 2em;
+  padding-top: 0.7em;
+  padding-bottom: 0.7em;
+  padding-right: 2em;
+  padding-left: 2em;
+  color: white;
+  border: none;
 }
 .section-gps {
-  margin-bottom: 250px;
+  margin-bottom: 7em;
 }
 .section-gps .inner-content img {
   position: absolute;
   width: 62em;
-  top: -50em;
+  top: -13em;
 }
 .section-gps .inner-content p {
   color: #F5F5F5;
@@ -332,7 +360,7 @@ textarea {
 .section-gps .gps-content {
   background-color: #051029;
   text-align: right;
-  padding-right: 20em;
+  padding-right: 10em;
   padding-top: 1em;
   padding-bottom: 2em;
 }
@@ -345,11 +373,11 @@ textarea {
 .section-gps .gps-subtitle {
   color: white;
   font-family: "Roboto";
-  font-size: 75px;
+  font-size: 3rem;
   font-weight: 350;
   margin-top: 0;
   position: relative;
-  top: -15px;
+  top: -0.5em;
 }
 .section-ar {
   border-top: 1em solid #ffdf32;
@@ -448,7 +476,7 @@ textarea {
   top: 680px;
 }
 .section-planner {
-  height: 80vw;
+  height: 60vw;
 }
 .section-planner .wide-title {
   background: #1de9b6;
@@ -465,7 +493,7 @@ textarea {
 }
 .section-planner .inner-content img {
   position: absolute;
-  top: -43em;
+  top: -27em;
   left: 61em;
   width: 34em;
 }
@@ -592,6 +620,7 @@ textarea {
 .section-tracking .inner-content img {
   position: absolute;
   width: 49em;
+  top: -19em;
 }
 .section-tracking .inner-content p {
   font-size: 3rem;
@@ -641,7 +670,7 @@ textarea {
 .section-alerts .inner-content .half .titles {
   margin: auto;
   text-align: left;
-  padding-left: 15em;
+  padding-left: 11em;
   padding-top: 8em;
 }
 .section-alerts .inner-content .half .titles h1,
@@ -669,31 +698,33 @@ textarea {
   width: 100vw;
   height: auto;
 }
+.section-leather h1,
+.section-leather p {
+  margin-left: 14rem;
+}
 .section-leather h1 {
   font-weight: 150;
-  font-size: 48px;
+  font-size: 4rem;
   margin-bottom: 0;
+}
+.section-leather p {
+  color: #78909c;
+  font-size: 3rem;
+  text-align: left;
+  margin-top: 0;
 }
 .section-leather .info-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  position: relative;
+  left: 5em;
+  top: -5em;
 }
-.section-leather .info-container .half {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-}
-.section-leather .info-container .half i {
-  font-size: 120px;
-  margin: auto 0;
-}
-.section-leather .info-container .half .leather-words {
-  text-align: left;
-}
-.section-leather .info-container .half .leather-words p {
-  color: #78909c;
-  font-size: 30px;
-  text-align: left;
-  margin: 0;
+.section-leather .info-container i {
+  position: relative;
+  top: 1.6em;
+  left: 0.8em;
+  font-size: 7rem;
 }
 .section-wireless-charging .inner-content .header {
   padding-left: 9em;
@@ -762,6 +793,13 @@ textarea {
   color: #78909c;
   font-weight: 200;
   font-size: 2rem;
+}
+.section-kickstarter-testimonials .wrapper {
+  width: 80%;
+  margin: auto;
+}
+.section-kickstarter-testimonials .wrapper .header h1 {
+  font-weight: 200;
 }
 .left {
   position: relative;
