@@ -849,11 +849,58 @@
 					font-weight: 200;
 				}
 			}
+
+			.kickstarter-row {
+
+				.inner-content {
+					display: grid;
+					grid-template-columns: 1fr 5fr;
+					margin-bottom: 3em;
+
+					img {
+						width: 50%;
+					}
+
+					.kickstarter {
+						position: relative;
+						top: -1em;
+
+						&-name {
+							font-size: 0.8rem;
+						}
+
+						&-member {
+							float: right;
+						}
+					}
+				}
+			}
 		}
 	}
 }
 
+footer {
+	.yellow-footer {
+		padding-top: 1em;
+		width: 50em;
+		text-align: center;
+		margin: auto;
+		background-color: #FFEA00;
 
+		h1 {
+			color: #1B4660;
+			width: 15em;
+			margin: auto;
+			font-weight: 100;
+			font-size: 1.8rem;
+			padding: 1em 0;
+		}
+	}
+
+	.brown-footer {
+		background-color: #212121;
+	}
+}
 
 
 

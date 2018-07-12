@@ -801,6 +801,42 @@ textarea {
 .section-kickstarter-testimonials .wrapper .header h1 {
   font-weight: 200;
 }
+.section-kickstarter-testimonials .wrapper .kickstarter-row .inner-content {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  margin-bottom: 3em;
+}
+.section-kickstarter-testimonials .wrapper .kickstarter-row .inner-content img {
+  width: 50%;
+}
+.section-kickstarter-testimonials .wrapper .kickstarter-row .inner-content .kickstarter {
+  position: relative;
+  top: -1em;
+}
+.section-kickstarter-testimonials .wrapper .kickstarter-row .inner-content .kickstarter-name {
+  font-size: 0.8rem;
+}
+.section-kickstarter-testimonials .wrapper .kickstarter-row .inner-content .kickstarter-member {
+  float: right;
+}
+footer .yellow-footer {
+  padding-top: 1em;
+  width: 50em;
+  text-align: center;
+  margin: auto;
+  background-color: #FFEA00;
+}
+footer .yellow-footer h1 {
+  color: #1B4660;
+  width: 15em;
+  margin: auto;
+  font-weight: 100;
+  font-size: 1.8rem;
+  padding: 1em 0;
+}
+footer .brown-footer {
+  background-color: #212121;
+}
 .left {
   position: relative;
   left: -250px;
