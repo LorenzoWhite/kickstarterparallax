@@ -765,15 +765,43 @@
 
 		.inner-content {
 
+			img {
+				width: 100%;
+				height: auto;
+			}
+
 			.header {
-				width: 30%;
+				margin: auto;
+				width: 13em;
 				color: @alert-info-color;
-				font-size: 3rem;
+				font-size: 2.6rem;
 
 
 				h4 {
 					text-align: center;
 					font-weight: 200;
+				}
+			}
+
+			.blockquote {
+				position: absolute;
+				top: 18em;
+				left: 10em;
+
+				h1, h2 {
+					margin: 0;
+				}
+
+				h1 {
+					text-transform: uppercase;
+					color: @gps-text-color;
+					font-size: 3.5rem;
+				}
+
+				h2 {
+					color: @alert-info-color;
+					font-weight: 200;
+					font-size: 2rem;
 				}
 			}
 		}

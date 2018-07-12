@@ -730,14 +730,38 @@ textarea {
   font-weight: 650;
   background-color: rgba(29, 160, 233, 0.7);
 }
+.section-powerbank .inner-content img {
+  width: 100%;
+  height: auto;
+}
 .section-powerbank .inner-content .header {
-  width: 30%;
+  margin: auto;
+  width: 13em;
   color: #78909c;
-  font-size: 3rem;
+  font-size: 2.6rem;
 }
 .section-powerbank .inner-content .header h4 {
   text-align: center;
   font-weight: 200;
+}
+.section-powerbank .inner-content .blockquote {
+  position: absolute;
+  top: 18em;
+  left: 10em;
+}
+.section-powerbank .inner-content .blockquote h1,
+.section-powerbank .inner-content .blockquote h2 {
+  margin: 0;
+}
+.section-powerbank .inner-content .blockquote h1 {
+  text-transform: uppercase;
+  color: #1de9b6;
+  font-size: 3.5rem;
+}
+.section-powerbank .inner-content .blockquote h2 {
+  color: #78909c;
+  font-weight: 200;
+  font-size: 2rem;
 }
 .left {
   position: relative;
