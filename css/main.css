@@ -825,6 +825,8 @@ footer .yellow-footer {
   text-align: center;
   margin: auto;
   background-color: #FFEA00;
+  position: relative;
+  top: 8em;
 }
 footer .yellow-footer h1 {
   color: #1B4660;
@@ -836,6 +838,26 @@ footer .yellow-footer h1 {
 }
 footer .brown-footer {
   background-color: #212121;
+  margin: 0;
+  color: white;
+  height: 20em;
+  text-align: center;
+}
+footer .brown-footer .text-container {
+  position: relative;
+  width: 50em;
+  text-align: center;
+  top: 10em;
+  left: 25em;
+}
+footer .brown-footer .text-container p {
+  font-size: .7rem;
+  font-weight: 100;
+}
+footer .brown-footer .text-container p.copywrite {
+  margin-top: 8em;
+  font-size: 0.6rem;
+  font-weight: 100;
 }
 .left {
   position: relative;
